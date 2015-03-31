@@ -6,10 +6,10 @@ Site: [http://clown-olga-13325.bitballoon.com/](http://clown-olga-13325.bitballo
 
 ## Specification
 * Since I don't have access to a server or hosting platform, I am using free hosting platform on [BitBalloon](http://bitballoon.com) and using Travis CI for bot.
-* I am currently using mkdocs for static website generation with the default theme. This is not a good choice, however for testing purposes it is easist to implement. Another great option is jekyll.
+* I am currently using mkdocs for static website generation with the default theme. This is not a good choice, however for testing purposes it is easier to implement for documentation. Another great option is jekyll.
 * Can be easily customized for themes, others static website generators and deploy platform
 
-## How it works
+## How to contribute
 * Feel free to fork and make changes
 * Make a pull request
 * If travis CI builds it successfully, it can be merged upon which it will be deployed.
