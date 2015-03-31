@@ -1,0 +1,14 @@
+language: ruby
+sudo: required
+before_install:
+- travis_retry gem install bitballoon
+- travis_retry sudo pip install mkdocs
+script: mkdocs build
+after_success: bitballoon deploy site --access-token=$BB_ACCESS_TOKEN --site-id=$BB_SITE_ID
+branches:
+  only:
+  - master
+env:
+  global:
+  - secure: JudDyoW4X41LGVvxoL01to2TR7HUQTBS4dpUQikpgjj5jveJypUUy4H5LD+GQXBBNa8imcJtRnkP/VKfTZbUVhNMjYkwpX0IGkv8ygeu0c5oTCaLl1ANSPjfPvCKem6t9gne3BCDWW1cS0QdQd3NGEMUzuM2/HuwOctGeVf1Odw=
+  - secure: ExQMpFZ8Sii4Xrc7q6Tsgl3TmK8vmyQlOa7pJcaa2FNt7V2ZP9rJHE+xqxiDw4DKWvv4TnOkX6VsnlSqa3z3cyAoJt0ugOYtnlPAQxOwZ7qIeBNSMteIVfJCBbkgmz2igdcQ1ARvCcWThNnIu8TAGeEbr2r51I9xnazetpxFW7I=

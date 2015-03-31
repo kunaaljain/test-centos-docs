@@ -1,0 +1,6 @@
+site_name: CentOS Docs
+pages:
+- ['index.md', 'Home']
+- ['test/test.md', 'Test', 'a']
+- ['test/test1.md', 'Test', 'b']
+- ['about.md', 'About']
