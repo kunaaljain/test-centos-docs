@@ -15,4 +15,4 @@ Site: [http://clown-olga-13325.bitballoon.com/](http://clown-olga-13325.bitballo
 * If travis CI builds it successfully, it can be merged upon which it will be deployed.
 
 ### Author: Kunal Jain
-### For CentOS 
+### For CentOS
