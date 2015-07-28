@@ -4,3 +4,4 @@ pages:
 - ['test/test.md', 'Test', 'a']
 - ['test/test1.md', 'Test', 'b']
 - ['about.md', 'About']
+- ['newtest.md', 'New test']
