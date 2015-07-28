@@ -6,3 +6,5 @@ pages:
 - ['about.md', 'About']
 - ['newtest.md', 'New test']
 - ['helloworld.md', 'Hello World']
+
+theme : readthedocs
