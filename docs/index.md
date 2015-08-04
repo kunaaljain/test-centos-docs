@@ -1,7 +1,8 @@
 # Welcome to CentOS Docs!
 
-This is a test documentation. Please visit [Centos Docs](https://www.centos.org/docs/).
+This is a test documentation site..
 
+## About Project
 
 ## Lorem Ipsum
 
