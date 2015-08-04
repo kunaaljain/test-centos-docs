@@ -1,48 +1,31 @@
-# Regis nonn
+## Aim
 
-## Portabat victus
+Initial Idea : http://wiki.centos.org/GSoC/2015/Ideas#docs-toolchain
 
-Lorem markdownum gentesque gratia, dum per: corpora cui. Vincat serpens
-sociantem artus, habet animum velocius accessi, animam! Lichae pectebant quod
-[cum](http://tumblr.com/) sibi legumque tenues. Parari rogantem imago manus
-doloris, et *neve spiramenta curaliis* formosissima unum facientia terret.
+The CentOS Project needs more short-form contributions of content that focuses on how-to do things on top of a CentOS Linux installation, with a method to push changes in to appropriate and related upstream open source projects.
 
-- Ora hunc ligamina liceat trepidante nupta
-- Nunc per quas et quis neque velis
-- Atra foret
-- Modo exitium quae
+There is a lot of content scattered across the Internet on how to do things with CentOS Linux. The goal of this toolchain is to make it easy for people to contribute new, short-form content articles to the Project with an ability to push them outward to relevant upstream projects.
 
-## Palladis corpore est profeci membris
+## Workflow 
 
-Resonant arboris, crede, fueritque struxisse loquaci sequuntur **domat**.
-Cornibus melioris nec quoque, cum tenebris ipsa, illi tam fregit quod. Potiere
-perdidimus lata virtus nomine quanta nec pressit.
+1. The user authors content in markdown format and creates a pull request on Github.
+2. The backend service mirrors the pull request to pagure and creates a issue.
+3. The doc is built and a link is provided to preview the doc.
+5. Staff reviews the docs, gives comments either on pagure or github (two way synced)
+4. Once the staff approves the doc is built and doc site updated.
 
-Planxere nati vellet renovare in pulsa. Deos nulla erat ubera nostro plena
-seque; sub luce una. Suum tela avoque coniuge orantemque filia ad timorem
-merguntque repetitque resistere movere turba, parva *terrae cani*.
+## Infra
 
-- Vel tinguitur solum spinae
-- Sibi iuvenum suos siquos
-- Ante suspirat aurem
-- Cum attollit
-- Cavis quam formidine de et opus
+1. A backend server listing to Github and Pagure webhooks and mirroring content.
+2. A http site displaying the temporary docs.
+3. A pagure instance
 
-## Nutantem suaque
 
-Vel neve mox morsus est? Fugiebat luctus amnis medicamine, nomen illius reddere
-crudelis et curasque ait; tum vocibus.
+## Testing
 
-Manibus vagantem manemus quoque volvens iuvenem, intonsum poterisne rursus.
-Athin tuo modo feret et ramos qua haec insistere, verbis. Manifesta flammae, in
-quae ducimus postquam [dolentes bitumen
-calcatis](http://www.raynelongboards.com/): quae flagratque tradit novat
-[gramine](http://textfromdog.tumblr.com/). Enim ipse dubitabilis arcus
-alimentaque se anus sanguine ambustique contulerant popularis.
-
-Qua neque sit, equidem conlapsus te nec ecce, tamen est spatioso: enim
-[ranae](http://eelslap.com/), quas. Pectora longas dentemque novercae sternis
-repulsam umet. Totas suos coiere Delius pendebat; volentem iurabat multa.
-Medicamine laetum, **illa**, dummodo?
-
-### Test change !!
+1. Fork the https://github.com/kunaaljain/test-centos-docs
+2. Add new content to docs folder in mardown language.
+3. Update the mkdocs.yml file and add the new file you just created with appropriate heading.
+4. Create a pull request.
+5. Within 15-20 seconds, a comment will be made on pull request, with the pagure link, which displaying various metadata.
+6. Once the staff approves, PR is merged and site updated.
