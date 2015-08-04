@@ -1,8 +1,10 @@
 # Welcome to CentOS Docs!
 
+**Always build!**
+
 This is a test documentation site..
 
-## How to Contribute 
+## How to Contribute
 
 1. Fork the [Repo](https://github.com/kunaaljain/test-centos-docs)
 2. Add new content to docs folder in mardown language.
@@ -17,7 +19,7 @@ This is a test documentation site..
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
-        
-        
+
+
 
 ## [Edit this document](https://github.com/kunaaljain/test-centos-docs/edit/master/docs/index.md)

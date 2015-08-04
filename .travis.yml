@@ -4,7 +4,7 @@ before_install:
 - travis_retry gem install bitballoon
 - travis_retry sudo pip install mkdocs
 script: mkdocs build
-after_success: '[ "${TRAVIS_PULL_REQUEST}" = "false" ] && bitballoon deploy site --access-token=$BB_ACCESS_TOKEN --site-id=$BB_SITE_ID || true'
+after_success: 'bitballoon deploy site --access-token=$BB_ACCESS_TOKEN --site-id=$BB_SITE_ID || true'
 branches:
   only:
   - master
