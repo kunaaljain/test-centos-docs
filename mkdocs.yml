@@ -1,7 +1,8 @@
 site_name: CentOS Docs
 pages:
-- ['index.md', 'Home']
-- ['docker.md', 'Docs', 'Docker']
-- ['about.md', 'About']
+- Home: 'index.md'
+- Docs:
+  - Docker: 'docker.md'
+- About: 'about.md'
 
 theme : readthedocs
