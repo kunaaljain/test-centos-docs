@@ -2,11 +2,14 @@
 
 This is a test documentation site..
 
-## About Project
+## How to Contribute 
 
-## Lorem Ipsum
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+1. Fork the [Repo](https://github.com/kunaaljain/test-centos-docs)
+2. Add new content to docs folder in mardown language.
+3. Update the mkdocs.yml file and add the new file you just created with appropriate heading.
+4. Create a pull request.
+5. Within 15-20 seconds, a comment will be made on pull request, with the pagure link, which displaying various metadata.
+6. Once the staff approves, PR is merged and site updated.
 
 ## Project layout
 
@@ -16,6 +19,5 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
         ...       # Other markdown pages, images and other files.
         
         
-## Author : Kunal Jain
 
 ## [Edit this document](https://github.com/kunaaljain/test-centos-docs/edit/master/docs/index.md)
