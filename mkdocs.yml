@@ -3,6 +3,7 @@ pages:
 - Home: 'index.md'
 - Docs:
   - Docker: 'docker.md'
+  - OpenStack: openstack.md
 - About: 'about.md'
 
 theme : readthedocs
