@@ -1,3 +1,3 @@
-test
-test
-test
+Have a test
+
+Have another test
