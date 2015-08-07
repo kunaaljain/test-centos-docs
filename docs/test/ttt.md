@@ -1,3 +1,1 @@
-Have a test
-
-Have another test
+Thank you very much!
