@@ -1,5 +1,1 @@
-Testing
-
-Testing
-
-Testing
+The first commit.
