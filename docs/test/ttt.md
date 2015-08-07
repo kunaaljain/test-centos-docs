@@ -1,5 +1,3 @@
-Testing
+The first commit.
 
-Testing
-
-Testing
+The second commit.
