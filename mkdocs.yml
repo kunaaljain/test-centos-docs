@@ -3,6 +3,7 @@ pages:
 - Home: 'index.md'
 - Docs:
   - Docker: 'docker.md'
+  - Kubernetes: 'deploy-kubernetes-with-a-single-command-using-atomicapp.md'
 - About: 'about.md'
 
 theme : readthedocs
