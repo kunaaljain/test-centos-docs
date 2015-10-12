@@ -1,1 +1,1 @@
-Thank you very much!
+I love Akagi!
